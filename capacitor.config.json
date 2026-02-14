@@ -1,0 +1,24 @@
+{
+  "appId": "com.luus.v2",
+  "appName": "LUUS",
+  "webDir": "dist",
+  "plugins": {
+    "GoogleAuth": {
+      "scopes": [
+        "profile",
+        "email"
+      ],
+      "serverClientId": "163134873590-cldj3rmup8omo75t3lik28uf2fvnrccf.apps.googleusercontent.com",
+      "iosClientId": "163134873590-PLACEHOLDER_IOS_ID.apps.googleusercontent.com",
+      "forceCodeForRefreshToken": true
+    },
+    "AppleSignIn": {
+      "clientId": "com.luus.v2",
+      "redirectURI": "https://vbsxnruljoauhfgqbkek.supabase.co/auth/v1/callback"
+    }
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "limitsNavigationsToAppBoundDomains": true
+  }
+}
